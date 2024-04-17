@@ -15,6 +15,10 @@ p {
     font-style: italic;
 }
 
+h1 {
+    font-style: italic;
+}
+
 /*자식 선택자*/
 div p {
     color: red;
