@@ -67,6 +67,26 @@ span, .div2 {
 #fixed {
     background-color: yellow;
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     right: 0;
 }
+
+/*absolute*/
+#absolute {
+    background: yellow;
+    position: absolute;
+    right: 0;
+}
+
+#parent {
+    background: skyblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#child {
+    position: absolute;
+    right: 0;
+}
+
