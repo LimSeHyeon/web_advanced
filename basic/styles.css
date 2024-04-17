@@ -62,3 +62,11 @@ span, .div2 {
     position: relative;
     bottom: 5px;
 }
+
+/* fixed */
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
