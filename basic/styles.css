@@ -30,3 +30,79 @@ h1 {
 div p {
     color: red;
 }
+
+.static {
+    background: yellow;
+    border: 1px solid red;
+}
+
+span, .div2 {
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+/* relative */
+.top {
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+
+.right {
+    position: relative;
+    right: 5px;
+}
+
+.left {
+    position: relative;
+    left: 5px;
+}
+
+.bottom {
+    position: relative;
+    bottom: 5px;
+}
+
+/* fixed */
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 10px;
+    right: 0;
+}
+
+/*absolute*/
+#absolute {
+    background: yellow;
+    position: absolute;
+    right: 0;
+}
+
+#parent {
+    background: skyblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#child {
+    position: absolute;
+    right: 0;
+}
+
+.float-container {
+    width: 320px;
+    border: 2px solid #09c;
+}
+
+.float-container-img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #90c;
+}
+
+#git_profile {
+    width: 50px;
+    height: 50px;
+}
