@@ -90,12 +90,12 @@ span, .div2 {
     right: 0;
 }
 
-.float-container {
+#float-container {
     width: 320px;
     border: 2px solid #09c;
 }
 
-.float-container-img {
+#float-container-img {
     float: left;
     margin: 5px;
     padding: 5px;
