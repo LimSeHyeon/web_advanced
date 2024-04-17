@@ -6,5 +6,22 @@
 .logo,
 .nav-items {
     display: inline-block;
-    margin-right: 306px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav div {
+    display: inline-block;
+}
+
+.gitwitterinsta {
+    margin: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
 }
