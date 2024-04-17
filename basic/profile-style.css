@@ -1,0 +1,8 @@
+.nav-items div {
+    display: inline-block;
+}
+
+.logo,
+.nav-items {
+    display: inline-block;
+}
