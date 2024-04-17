@@ -1,8 +1,10 @@
 .nav-items div {
     display: inline-block;
+    margin: 36px;
 }
 
 .logo,
 .nav-items {
     display: inline-block;
+    margin-right: 306px;
 }
