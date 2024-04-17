@@ -31,7 +31,7 @@ div p {
     color: red;
 }
 
-div span, div div{
+.static {
     background: yellow;
     border: 1px solid red;
 }
