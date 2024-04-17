@@ -6,5 +6,30 @@
 .logo,
 .nav-items {
     display: inline-block;
-    margin-right: 306px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav div {
+    display: inline-block;
+}
+
+.gitwitterinsta {
+    margin: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#face {
+    border-radius: 100%;
+    border: 10px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,103,0,1) 18%, rgba(255,171,0,1) 30%, rgba(255,248,0,1) 43%, rgba(255,183,65,1) 58%, rgba(255,109,138,1) 75%, rgba(255,57,189,1) 87%, rgba(255,0,245,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
