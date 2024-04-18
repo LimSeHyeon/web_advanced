@@ -1,10 +1,9 @@
-/* ------- 상단 네비게이션 -----  */
 body {
     /* 요소에 최대 길이를 주고, margin:0 auto를 주면,
     maring 좌우가 auto로 적용되며
     가운데 정렬이 된다.
      */
-    max-width: 1228px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -35,6 +34,7 @@ body {
 /* 자기소개 */
 .intro {
     padding-top: 130px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,4 +57,37 @@ body {
     background-image: linear-gradient(#fff, #fff), linear-gradient(120deg, rgba(255,0,0,1) 0%, rgba(255,103,0,1) 18%, rgba(255,171,0,1) 30%, rgba(255,248,0,1) 43%, rgba(255,183,65,1) 58%, rgba(255,109,138,1) 75%, rgba(255,57,189,1) 87%, rgba(255,0,245,1) 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+}
+
+/* 기술 스택 */
+.section-text {
+    padding-bottom: 50px;
+}
+
+.section-text h2 {
+    text-align: center; /*글자 가운데로*/
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-text p {
+    text-align: center;
+    font-size: 30px;
+    color: #666;
+}
+
+.tech-lists {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech-lists li {
+    align-items: center;
+}
+
+#tech-stack {
+    padding-bottom: 150px;
 }
