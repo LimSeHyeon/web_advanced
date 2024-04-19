@@ -104,9 +104,16 @@ body {
     gap: 50px;
 }
 
-.project-item {
+.project-item {/* 프로젝트 article*/
+    padding: 10px;
+    padding-bottom: 20px;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    /* 제일 넓은 친구에 맞게 바꿔볼게요 ! */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 .project-thumbnail {
@@ -122,11 +129,14 @@ body {
 }
 
 .project-content {
-    padding: 30px;
+    padding: 10px;
     /* 세로 간격(gap)을 일정하게 주기 위해 flex 적용 */
     display: flex;
     flex-direction: column;
-    gap:24px;
+    /* justify-content: space-between; */
+    height:100%;
+    /* align-items: flex-start; */
+    gap: 20px;
 }
 
 .project-content h4 {    
@@ -137,9 +147,10 @@ body {
 
 .project-link {
     display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .project-link a {
