@@ -145,6 +145,18 @@ body {
     font-weight: 700;
 }
 
+.project-text {
+    color: #666;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tech-stack {
+    color: #42446e;
+    font-style: normal;
+}
+
 .project-link {
     display: flex;
     justify-content: space-around;
