@@ -3,7 +3,7 @@ body {
     maring 좌우가 auto로 적용되며
     가운데 정렬이 된다.
      */
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -73,7 +73,7 @@ body {
 
 .section-text p {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -90,4 +90,86 @@ body {
 
 #tech-stack {
     padding-bottom: 150px;
+}
+
+/* 프로젝트 */
+#projects {
+    padding: 30px;
+}
+
+.project-lists {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.project-item {/* 프로젝트 article*/
+    padding: 10px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    /* 제일 넓은 친구에 맞게 바꿔볼게요 ! */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.project-thumbnail {
+    width: 100%;
+    padding: 10px;
+    /* 위쪽 둥글게 둥글게 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* 배경 이미지 가운데 정렬, 가득차게 */
+    /* background-image: url("https://source.unsplash.com/random/400×400"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.project-content {
+    padding: 10px;
+    /* 세로 간격(gap)을 일정하게 주기 위해 flex 적용 */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height:100%;
+    /* align-items: flex-start; */
+    gap: 20px;
+}
+
+.project-content h4 {    
+    color: #42446e;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.project-text {
+    color: #666;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tech-stack {
+    color: #42446e;
+    font-style: normal;
+}
+
+.project-link {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-link a {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+    font-size: 16px;
+    font-weight: 400;
 }
